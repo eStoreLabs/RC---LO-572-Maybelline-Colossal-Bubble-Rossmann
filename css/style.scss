@@ -19,26 +19,19 @@ $bgcolor: #FFF;
     max-width: 100%;
 }
 
-#es-maybelline.es-maybelline {
+#es-rc #es-maybelline.es-maybelline {
   margin: 0 auto;
   padding: 0;
   font-family: $regular;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.2;
-  max-width: 1300px;
+  max-width: 990px;
   overflow: hidden;
   background-color: $bgcolor;
 
   * {
       box-sizing: border-box;
-  }
-  h2,
-  h3,
-  h4,
-
-  h5 {
-      font-family: $regular;
   }
 
   .es-kv {
@@ -618,70 +611,5 @@ $bgcolor: #FFF;
       }
     }
   }
-  @media screen and (min-width: 1140px) {
-    .es-ba {
-      &__text {
-        font-size: 30px;
-      }
-      &__title {
-        font-size: 60px;
-        width: 60%;
-      }
-    }
-    .es-info {
-      &__title {
-        font-size: 45px;
-      }
-      &__text {
-        font-size: 35px;
-      }
-    }  
-    .es-ba2 {
-      &__title {
-        top: 1.5%;
-        font-size: 30px;
-      }
-      &__before {
-        font-size: 20px;
-      }
-      &__after {
-        font-size: 20px;
-      }
-    }
-  }
-  @media screen and (min-width: 1300px) {
-    .es-kv {
-      &__texts {
-        width: 58%;
-        position: absolute;
-        top: 61%;
-        left: 2%;
-      }
-      &__subtitle {
-        font-size: 60px;
-      }
-      &__title {
-        font-size: 90px;
-      }
-      &__text {
-        font-size: 72px;
-      }
-    }
-    .es-ba {
-      &__text {
-        top: 4%;
-      }
-    }
-    .es-info {
-      &__texts {
-        top: 5%;
-      }
-      &__title {
-        font-size: 55px;
-      }
-      &__text {
-        font-size: 45px;
-      }
-    }  
-  }
+
   }
