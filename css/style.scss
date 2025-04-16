@@ -258,28 +258,6 @@ $bgcolor: #FFF;
     }
   }
 
-  .es-video {
-    padding: 0;
-    &__container {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 */
-      height: 0;
-    }
-    &__wrapper {
-      margin: 0 auto;
-      width: 100%;
-    }
-    iframe {
-      border: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-  }
-
   .es-cross {
     padding: 60px 16px;
 
